@@ -37,7 +37,7 @@ status-website:
       href: https://www.stemmechanics.com.au/
     - title: Status
       href: /
-  js: "document.addEventListener('DOMContentLoaded',function(){var group='';document.querySelectorAll('article').forEach(a=>{(ref=a.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=group.localeCompare(groupIndex)&&(group=groupIndex,(groupElem=document.createElement('h3')).innerHTML=group,(parent=a.parentNode).insertBefore(groupElem,a)))})});"
+  js: "document.addEventListener('DOMContentLoaded',function(){alert('here');var group='';document.querySelectorAll('article').forEach(a=>{(ref=a.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=group.localeCompare(groupIndex)&&(group=groupIndex,(groupElem=document.createElement('h3')).innerHTML=group,(parent=a.parentNode).insertBefore(groupElem,a)))})});"
 
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org)
