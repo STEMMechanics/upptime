@@ -17,7 +17,7 @@ sites:
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-minecraft.png
   - name: Drustcraft Website
     url: https://www.drustcraft.com.au
-
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-webpage.png
   - name: Drustcraft API
     url: https://api.drustcraft.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-gears.png
