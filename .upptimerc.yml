@@ -4,6 +4,10 @@ repo: upptime
 sites:
   - name: STEMMechanics Website
     url: https://www.stemmechanics.com.au
+  - name: STEMMechanics Database
+    check: "tcp-ping"
+    url: db.stemmechanics.com.au
+    port: 3306
   - name: Drustcraft Server
     check: "tcp-ping"
     url: play.drustcraft.com.au
