@@ -17,7 +17,7 @@ sites:
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-minecraft.png
   - name: Drustcraft Website
     url: https://www.drustcraft.com.au
-    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-webpage.png
+
   - name: Drustcraft API
     url: https://api.drustcraft.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-gears.png
@@ -37,7 +37,7 @@ status-website:
       href: https://www.stemmechanics.com.au/
     - title: Status
       href: /
-  js: "target=document.querySelector('body');const observer=new MutationObserver(function(){if(document.querySelector('section.live-status')){var a='';document.querySelectorAll('article').forEach(b=>{(ref=b.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=a.localeCompare(groupIndex)&&(a=groupIndex,(groupElem=document.createElement('h3')).innerHTML=a,(parent=b.parentNode).insertBefore(groupElem,b)))})}});observer.observe(target, {childList:true});"
+  js: "document.addEventListener('DOMContentLoaded',function(){target=document.querySelector('body');const observer=new MutationObserver(function(){if(document.querySelector('section.live-status')){var a='';document.querySelectorAll('article').forEach(b=>{(ref=b.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=a.localeCompare(groupIndex)&&(a=groupIndex,(groupElem=document.createElement('h3')).innerHTML=a,(parent=b.parentNode).insertBefore(groupElem,b)))})}});observer.observe(target, {childList:true})});"
 
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org)
