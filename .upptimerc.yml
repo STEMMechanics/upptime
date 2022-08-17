@@ -21,7 +21,7 @@ status-website:
   name: STEMMechanics
   introTitle: "Service Status"
   introMessage: ""
-  theme: custom
+  themeUrl: https://status.stemmechanics.com.au/custom.css
   navbar:
     - title: Home
       href: https://www.stemmechanics.com.au/
