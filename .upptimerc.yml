@@ -34,4 +34,4 @@ status-website:
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org)
 
-customStatusWebsitePackage: "@STEMMechanics/status-page"
+customStatusWebsitePackage: "https://github.com/STEMMechanics/status-page"
