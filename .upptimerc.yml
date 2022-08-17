@@ -4,10 +4,12 @@ repo: upptime
 sites:
   - name: STEMMechanics Website
     url: https://www.stemmechanics.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-webpage.png
   - name: STEMMechanics Database
     check: "tcp-ping"
     url: db.stemmechanics.com.au
     port: 3306
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-server.png
   - name: Drustcraft Server
     check: "tcp-ping"
     url: play.drustcraft.com.au
@@ -15,8 +17,10 @@ sites:
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-minecraft.png
   - name: Drustcraft Website
     url: https://www.drustcraft.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-webpage.png
   - name: Drustcraft API
     url: https://api.drustcraft.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-gears.png
   - name: Drustcraft Map
     url: https://map.drustcraft.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-map.png
@@ -33,6 +37,7 @@ status-website:
       href: https://www.stemmechanics.com.au/
     - title: Status
       href: /
-  js: "var group='';document.querySelectorAll('article').forEach(a=>{(ref=a.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=group.localeCompare(groupIndex)&&(group=groupIndex,(groupElem=document.createElement('h3')).innerHTML=group,(parent=a.parentNode).insertBefore(groupElem,a)))})"
+  js: "document.addEventListener('DOMContentLoaded',function(){var group='';document.querySelectorAll('article').forEach(a=>{(ref=a.querySelector('a'))&&(groupIndex=(title=ref.innerHTML).substring(0,title.indexOf(' ')),ref.innerHTML=title.substring(title.indexOf(' ')+1),0!=group.localeCompare(groupIndex)&&(group=groupIndex,(groupElem=document.createElement('h3')).innerHTML=group,(parent=a.parentNode).insertBefore(groupElem,a)))})});"
+
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org)
