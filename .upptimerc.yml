@@ -17,7 +17,7 @@ sites:
 
 status-website:
   cname: status.stemmechanics.com.au
-  logoUrl: https://raw.githubusercontent.com/STEMMechanics/.github/main/stemmechanics_banner.png
+  logoUrl: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/stemmechanics_logo.png
   name: STEMMechanics
   introTitle: "Service Status"
   introMessage: ""
