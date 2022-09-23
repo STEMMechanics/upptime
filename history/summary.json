@@ -40,18 +40,19 @@
     "url": "play.drustcraft.com.au",
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-minecraft.png",
     "slug": "drustcraft-server",
-    "status": "up",
-    "uptime": "97.28%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "97.33%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.72%",
-    "uptimeYear": "97.28%",
+    "uptimeYear": "97.33%",
     "time": 235,
     "timeDay": 264,
     "timeWeek": 233,
     "timeMonth": 235,
     "timeYear": 235,
     "dailyMinutesDown": {
+      "2022-09-23": 0,
       "2022-09-02": 1031,
       "2022-09-01": 405
     }
