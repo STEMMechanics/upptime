@@ -25,6 +25,9 @@ sites:
     url: https://map.drustcraft.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-map.png
 
+assignees: # Users to assign downtime issues (optional)
+  - nomadjimbob
+
 status-website:
   cname: status.stemmechanics.com.au
   logoUrl: https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/stemmechanics_logo.png
