@@ -4,10 +4,10 @@
     "url": "https://www.stemmechanics.com.au",
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-webpage.png",
     "slug": "stem-mechanics-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1336,
@@ -15,7 +15,9 @@
     "timeWeek": 1448,
     "timeMonth": 1300,
     "timeYear": 1336,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-12-02": 2
+    }
   },
   {
     "name": "STEMMechanics Database",
@@ -41,11 +43,11 @@
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-minecraft.png",
     "slug": "drustcraft-server",
     "status": "up",
-    "uptime": "98.04%",
+    "uptime": "98.05%",
     "uptimeDay": "93.52%",
     "uptimeWeek": "98.90%",
     "uptimeMonth": "99.70%",
-    "uptimeYear": "98.04%",
+    "uptimeYear": "98.05%",
     "time": 250,
     "timeDay": 262,
     "timeWeek": 246,
@@ -86,9 +88,9 @@
     "url": "https://api.drustcraft.com.au",
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/assets/icon-gears.png",
     "slug": "drustcraft-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -97,7 +99,9 @@
     "timeWeek": 704,
     "timeMonth": 696,
     "timeYear": 697,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-12-02": 0
+    }
   },
   {
     "name": "Drustcraft Map",
