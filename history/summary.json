@@ -59,18 +59,18 @@
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png",
     "slug": "gw-bne-01",
     "status": "down",
-    "uptime": "9.64%",
-    "uptimeDay": "9.64%",
-    "uptimeWeek": "9.64%",
-    "uptimeMonth": "9.64%",
-    "uptimeYear": "9.64%",
+    "uptime": "0.12%",
+    "uptimeDay": "0.12%",
+    "uptimeWeek": "0.12%",
+    "uptimeMonth": "0.12%",
+    "uptimeYear": "0.12%",
     "time": 402,
     "timeDay": 402,
     "timeWeek": 402,
     "timeMonth": 402,
     "timeYear": 402,
     "dailyMinutesDown": {
-      "2025-02-02": 0
+      "2025-02-02": 21
     }
   },
   {
@@ -78,19 +78,19 @@
     "url": "https://gw-cns-01.stemmechanics.com.au",
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png",
     "slug": "gw-cns-01",
-    "status": "down",
-    "uptime": "4.67%",
-    "uptimeDay": "4.67%",
-    "uptimeWeek": "4.67%",
-    "uptimeMonth": "4.67%",
-    "uptimeYear": "4.67%",
-    "time": 449,
-    "timeDay": 449,
-    "timeWeek": 449,
-    "timeMonth": 449,
-    "timeYear": 449,
+    "status": "up",
+    "uptime": "0.50%",
+    "uptimeDay": "0.50%",
+    "uptimeWeek": "0.50%",
+    "uptimeMonth": "0.50%",
+    "uptimeYear": "0.50%",
+    "time": 618,
+    "timeDay": 618,
+    "timeWeek": 618,
+    "timeMonth": 618,
+    "timeYear": 618,
     "dailyMinutesDown": {
-      "2025-02-02": 0
+      "2025-02-02": 21
     }
   },
   {
@@ -98,19 +98,19 @@
     "url": "https://gw-cns-02.stemmechanics.com.au",
     "icon": "https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png",
     "slug": "gw-cns-02",
-    "status": "down",
-    "uptime": "12.45%",
-    "uptimeDay": "12.45%",
-    "uptimeWeek": "12.45%",
-    "uptimeMonth": "12.45%",
-    "uptimeYear": "12.45%",
-    "time": 429,
-    "timeDay": 429,
-    "timeWeek": 429,
-    "timeMonth": 429,
-    "timeYear": 429,
+    "status": "up",
+    "uptime": "0.40%",
+    "uptimeDay": "0.40%",
+    "uptimeWeek": "0.40%",
+    "uptimeMonth": "0.40%",
+    "uptimeYear": "0.40%",
+    "time": 585,
+    "timeDay": 585,
+    "timeWeek": 585,
+    "timeMonth": 585,
+    "timeYear": 585,
     "dailyMinutesDown": {
-      "2025-02-02": 0
+      "2025-02-02": 21
     }
   }
 ]
