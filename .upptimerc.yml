@@ -17,7 +17,7 @@ sites:
     url: minecraft.stemmechanics.com.au
     port: 25565
     check: "tcp-ping"
-    https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/minecraft.png
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/minecraft.png
   - name: GW-EDM-01
     url: https://gw-edm-01.stemmechanics.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
