@@ -18,10 +18,16 @@ sites:
     port: 25565
     check: "tcp-ping"
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/minecraft.png
-  - name: GW-EDM-01
-    url: https://gw-edm-01.stemmechanics.com.au
+  - name: GW-BNE-01
+    url: https://gw-bne-01.stemmechanics.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
-  
+  - name: GW-CNS-01
+    url: https://gw-cns-01.stemmechanics.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
+  - name: GW-CNS-02
+    url: https://gw-cns-02.stemmechanics.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
