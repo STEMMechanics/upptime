@@ -19,13 +19,13 @@ sites:
     check: "tcp-ping"
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/minecraft.png
   - name: GW-BNE-01
-    url: https://gw-bne-01.stemmechanics.com.au
+    url: http://gw-bne-01.stemmechanics.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
   - name: GW-CNS-01
-    url: https://gw-cns-01.stemmechanics.com.au
+    url: http://gw-cns-01.stemmechanics.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
   - name: GW-CNS-02
-    url: https://gw-cns-02.stemmechanics.com.au
+    url: http://gw-cns-02.stemmechanics.com.au
     icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
 
 status-website:
