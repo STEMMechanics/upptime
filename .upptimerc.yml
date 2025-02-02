@@ -1,13 +1,15 @@
 # Change these first
 owner: stemmechanics # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
+assignees:
+  - nomadjimbob
 
 sites:
   - name: Website
     url: https://www.stemmechanics.com.au
   - name: Database
     url: db.stemmechanics.com.au
-    port: 3306
+    port: $DB_PORT
     check: "tcp-ping"
   - name: Minecraft
     url: minecraft.stemmechanics.com.au
