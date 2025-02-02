@@ -7,16 +7,20 @@ assignees:
 sites:
   - name: Website
     url: https://www.stemmechanics.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/server.png
   - name: Database
     url: db.stemmechanics.com.au
     port: $DB_PORT
     check: "tcp-ping"
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/server.png
   - name: Minecraft
     url: minecraft.stemmechanics.com.au
     port: 25565
     check: "tcp-ping"
+    https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/minecraft.png
   - name: GW-EDM-01
     url: https://gw-edm-01.stemmechanics.com.au
+    icon: https://raw.githubusercontent.com/STEMMechanics/upptime/master/static/cloud.png
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
