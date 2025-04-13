@@ -45,6 +45,14 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER
 
+notifications:
+  NOTIFICATION_EMAIL: true
+  NOTIFICATION_EMAIL_FROM: upptime@stemmechanics.com.au
+  NOTIFICATION_EMAIL_TO: james@stemmechanics.com.au
+  NOTIFICATION_EMAIL_MAILGUN: true
+  NOTIFICATION_EMAIL_MAILGUN_API_KEY: $MAILGUN_KEY
+  NOTIFICATION_EMAIL_MAILGUN_DOMAIN_NAME: $MAILGUN_DOMAIN
+
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org) | Contact us at admin@stemmechanics.com.au
 
